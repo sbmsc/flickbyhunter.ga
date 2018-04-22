@@ -62,13 +62,22 @@
         #textdiv
         {
             padding-left:10px;
-		width:550px;
-		
+
+
+        }
+        #butt{
+            position: relative;
+            left:150px;
         }
 	iframe
 	{
-		float:right;
+
 		margin-right:10px;
+        float:right;
+        height:auto;
+        position: relative;
+        top:-150px;
+
 	}
         #boundary
         {
@@ -82,18 +91,37 @@
 
         <h1><center>Test your flick reaction time!</center></h1>
 
-        <div id="textdiv">
 
-        <p>Click on the circles as quickly as you can.</p>
 
-        <p><strong>Your time is: <span id="timeTaken"></span></strong></p>
+        <div>
 
-        <p><strong>Your avg time is:<span id="timeavg"></span></strong></p>
+            <div id="textdiv">
+
+            <p>Click on the circles as quickly as you can.</p>
+
+            <p><strong>Your time is: <span id="timeTaken"></span></strong></p>
+
+            <p><strong>Your avg time is:<span id="timeavg"></span></strong></p>
 
         </div>
-	    
-	<iframe width="442" height="250" src="https://www.youtube.com/embed/i9p0r_B-OjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <center><button id="butt">Start</button></center>
+
+        <div>
+
+            <iframe src="https://www.youtube.com/embed/i9p0r_B-OjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div><center><button id="butt">Start</button></center></div>
+
         <div id="shape"></div>
 
         <script>
